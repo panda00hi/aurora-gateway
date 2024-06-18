@@ -7,12 +7,11 @@
         <version>${revision}</version>
     </parent>
 
-    <groupId>com.aurora</groupId>
     <artifactId>aurora-gateway-api</artifactId>
     <packaging>jar</packaging>
 
-    <name>aurora-common</name>
-    <description>aurora-common</description>
+    <name>aurora-gateway-api</name>
+    <description>aurora-gateway-api</description>
 
     <dependencies>
         <dependency>

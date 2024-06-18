@@ -1,0 +1,26 @@
+server:
+  port: 9089
+
+
+spring:
+  application:
+    name: gateway-service-local
+
+
+dubbo:
+  application:
+    logger: slf4j
+    name: ${spring.application.name}
+    id: ${spring.application.name}
+    register-mode: instance
+    qos-enable: false
+  registry:
+    address: nacos://172.16.224.100:8848
+  protocol:
+    id: dubbo
+    name: dubbo
+    port: -1
+  scan:
+    base-packages: com.hh
+#  provider:
+#    filter: -exception,requestLogFilter,dubboExceptionFilter

@@ -1,7 +1,6 @@
 package com.aurora.gateway.common.model.rsp;
 
 
-
 import com.aurora.gateway.common.model.base.BaseErrorCode;
 import com.aurora.gateway.common.model.base.BaseErrorCodeClass;
 
