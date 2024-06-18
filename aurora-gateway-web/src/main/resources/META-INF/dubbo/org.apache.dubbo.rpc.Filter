@@ -1,0 +1,2 @@
+requestLogFilter=dubbo.filter.com.aurora.gateway.web.RequestLogFilter
+dubboExceptionFilter=dubbo.filter.com.aurora.gateway.web.DubboExceptionFilter
