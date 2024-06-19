@@ -5,6 +5,19 @@ server:
 spring:
   application:
     name: gateway-service-local
+  cloud:
+    gateway:
+      routes:
+        - id: local-business
+          uri: http://localhost:11301/business/
+          predicates:
+            - Path=/gateway/api/v1/business/**
+          filters:
+            - StripPrefix=3
+
+gateway:
+  filter:
+    responseFilter: true
 
 
 dubbo:
