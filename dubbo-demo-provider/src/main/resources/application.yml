@@ -1,0 +1,26 @@
+server:
+  port: 10086
+
+spring:
+  application:
+    name: dubbo-demo-provider
+
+dubbo:
+  application:
+    logger: slf4j
+    name: dubbo-demo-provider
+    id: dubbo-demo-provider
+    register-mode: instance
+    qos-enable: false
+  registry:
+    address: nacos://172.16.224.100:8848
+    parameters:
+      namespace: dubbo_demo
+      group: DUBBO_DEMO
+  protocol:
+    id: dubbo
+    name: dubbo
+    port: -1
+  scan:
+    base-packages: com.aurora.dubbo
+
