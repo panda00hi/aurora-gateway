@@ -23,17 +23,20 @@ gateway:
 dubbo:
   application:
     logger: slf4j
-    name: ${spring.application.name}
-    id: ${spring.application.name}
+    name: gateway-service-local
+    id: gateway-service-local
     register-mode: instance
     qos-enable: false
   registry:
     address: nacos://172.16.224.100:8848
+    parameters:
+      namespace: dubbo_demo
+      group: DUBBO_DEMO
   protocol:
     id: dubbo
     name: dubbo
     port: -1
   scan:
-    base-packages: com.hh
-#  provider:
-#    filter: -exception,requestLogFilter,dubboExceptionFilter
+    base-packages: com.aurora
+  consumer:
+    check: false
