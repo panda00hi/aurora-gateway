@@ -1,6 +1,6 @@
 package com.aurora.gateway.common;
 
-import com.aurora.gateway.web.Application;
+import com.aurora.gateway.web.GatewayApplication;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
@@ -12,7 +12,7 @@ import org.springframework.test.context.junit.jupiter.SpringExtension;
  * @date 2023.11.11
  */
 @ExtendWith(SpringExtension.class)
-@SpringBootTest(classes = Application.class)
+@SpringBootTest(classes = GatewayApplication.class)
 public abstract class SpringBaseTest {
 
 }

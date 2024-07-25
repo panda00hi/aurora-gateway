@@ -1,4 +1,4 @@
-package com.aurora.dubbo.model;
+package com.aurora.dubbo.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

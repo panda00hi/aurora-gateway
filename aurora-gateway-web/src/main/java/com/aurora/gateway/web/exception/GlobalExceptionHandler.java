@@ -1,7 +1,7 @@
 // package com.aurora.gateway.web.exception;
 //
-// import com.aurora.gateway.common.model.base.BaseException;
-// import com.aurora.gateway.common.model.rsp.CommonResult;
+// import com.aurora.gateway.common.entity.base.BaseException;
+// import com.aurora.gateway.common.entity.rsp.CommonResult;
 // import com.aurora.gateway.core.base.ErrorCode;
 // import jakarta.servlet.ServletException;
 // import lombok.extern.slf4j.Slf4j;

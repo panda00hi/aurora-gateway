@@ -1,8 +1,8 @@
 package com.aurora.dubbo.api.impl;
 
 import com.aurora.dubbo.api.AdminFacade;
-import com.aurora.dubbo.model.AccessDTO;
-import com.aurora.dubbo.model.UserDTO;
+import com.aurora.dubbo.dto.AccessDTO;
+import com.aurora.dubbo.dto.UserDTO;
 import org.apache.dubbo.config.annotation.DubboService;
 
 /**

@@ -1,7 +1,7 @@
 package com.aurora.dubbo.api;
 
-import com.aurora.dubbo.model.AccessDTO;
-import com.aurora.dubbo.model.UserDTO;
+import com.aurora.dubbo.dto.AccessDTO;
+import com.aurora.dubbo.dto.UserDTO;
 
 /**
  * @author panda00hi
